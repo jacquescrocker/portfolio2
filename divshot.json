@@ -1,3 +1,5 @@
 {
-  "name": "hyperactivehacker"
+  "name": "hyperactivehacker",
+  "root": "./build",
+  "clean_urls": true,
 }
