@@ -1,0 +1,28 @@
+# tags:
+# - featured
+# - clients
+# - open-source
+# - experiments
+# - hackathons
+
+-
+  title: "ForwardTrail"
+  byline: "Next-gen CRM developed for Sequoia Capital"
+  url: "https://www.forwardtrail.com"
+  image: "img/projects/forwardtrail.png"
+  tags: ["featured"]
+
+-
+  title: "Node Knockout"
+  byline: "48 hours global hackathon featuring Node.js"
+  url: "http://www.nodeknockout.com"
+  image: "img/projects/nodeknockout.png"
+  tags: ["featured", "hackathons"]
+
+# template
+# -
+#   title: ""
+#   byline: ""
+#   url: ""
+#   image: "img/projects/.png"
+#   tags: ["featured", "hackathons"]
