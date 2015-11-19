@@ -43,167 +43,24 @@
     <div class="row">
       <div class="portfolio-container">
 
-        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
+        <% data.portfolio.each do |project| %>
+          <div class="col-xs-12 col-sm-6 col-md-4 mt <%= project.tags.join(" ") %>">
+            <div class="project-item">
+              <div class="project-image">
+                <a href="/<%= project.title.parameterize %>/">
+                  <img src="<%= project.image %>" alt="" />
+                  <div class="overlay">
+                    <div class="details">
+                      <h2><%= project.title %></h2>
+                      <p><%= project.byline %></p>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
+        <% end %>
 
-        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign logodesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign illustration logodesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>AKQA</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign illustration">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt branding logodesign">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>Squared icon set design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt branding">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 mt branding illustration">
-          <div class="project-item">
-            <div class="project-image">
-              <a href="detail.html">
-                <img src="http://placehold.it/1100x856" alt="" />
-                <div class="overlay">
-                  <div class="details">
-                    <h2>portfolio title design</h2>
-                    <p>developed for
-                      <span>Envato</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>

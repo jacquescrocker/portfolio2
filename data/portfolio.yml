@@ -6,17 +6,17 @@
 # - hackathons
 
 -
-  title: "ForwardTrail"
+  title: "Forward Trail"
   byline: "Next-gen CRM developed for Sequoia Capital"
   url: "https://www.forwardtrail.com"
-  image: "img/projects/forwardtrail.png"
+  image: "http://placehold.it/1100x856"
   tags: ["featured"]
 
 -
   title: "Node Knockout"
   byline: "48 hours global hackathon featuring Node.js"
   url: "http://www.nodeknockout.com"
-  image: "img/projects/nodeknockout.png"
+  image: "http://placehold.it/1100x856"
   tags: ["featured", "hackathons"]
 
 # template
