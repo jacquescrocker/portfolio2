@@ -20,13 +20,6 @@
   image: "img/portfolio/nko.jpg"
 
 -
-  title: "Open Source Rails"
-  year: "2007, 2011, 2013"
-  byline: "the first and largest gallery of Open Source Ruby on Rails applications"
-  url: "http://www.opensourcerails.com"
-  image: "img/portfolio/opensourcerails.jpg"
-
--
   title: "Deploy Button"
   year: "2012"
   byline: "deploy your code by pressing a button"
@@ -114,14 +107,14 @@
 -
   title: "Scrabbly"
   year: "2010"
-  byline: "massively multiplayer, infinite sized scrabble board, won Node Knockout 2010 popularity prize"
+  byline: "massively multiplayer, infinite scrabble board, won NKO 2010 popularity"
   url: "http://startupmonkeys.com/2010/09/02/building-a-scrabble-mmo-in-48-hours/"
   image: "img/portfolio/scrabbly.jpg"
 
 -
   title: "Helpshelf"
   year: "2010"
-  byline: "Online searchable technical bookshelf. Won the IndexTank sponsored holiday hackathon."
+  byline: "Online searchable technical bookshelf. Won IndexTank's holiday hackathon"
   # url: "http://helpshelf.herokuapp.com"
   image: "img/portfolio/helpshelf.jpg"
 
@@ -129,7 +122,7 @@
 -
   title: "DietPicture"
   year: "2010"
-  byline: "visual photo food diary. Just snap a pic of what you eat."
+  byline: "visual photo food diary. Just snap a pic of what you eat"
   # url: "http://dietpicture.herokuapp.com"
   image: "img/portfolio/dietpicture.jpg"
 
@@ -154,13 +147,19 @@
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/alertmetv.jpg"
 
-
 -
   title: "White Label Apps, Inc"
   year: "2008"
-  byline: "white labeled codebases for the web 2.0 wannabee"
+  byline: "white labeled codebases for the web 2.0 wannabe"
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/whitelabelapps.jpg"
+
+-
+  title: "Open Source Rails"
+  year: "2007"
+  byline: "the first and largest gallery of Open Source Rails apps"
+  url: "http://www.opensourcerails.com"
+  image: "img/portfolio/opensourcerails.jpg"
 
 -
   title: "Comic.ly"
