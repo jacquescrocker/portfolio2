@@ -33,7 +33,8 @@
           <div class="col-xs-12 col-sm-6 col-md-4 mt <%= project.tags.join(" ") %>">
             <div class="project-item">
               <div class="project-image">
-                <a href="/<%= project.title.parameterize %>/">
+                <!-- <a href="/<%= project.title.parameterize %>/"> -->
+                <a href="<%= project.url.presence || "#" %>/">
                   <img src="<%= project.image %>" alt="" />
                   <div class="overlay">
                     <div class="details">

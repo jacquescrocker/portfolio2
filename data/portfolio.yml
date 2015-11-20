@@ -15,11 +15,19 @@
 
 -
   title: "Node Knockout"
-  year: "2013"
+  year: "2013, 2015"
   byline: "48 hours global hackathon featuring Node.js"
   url: "http://www.nodeknockout.com"
   image: "img/portfolio/nko.jpg"
   tags: ["featured", "hackathons"]
+
+-
+  title: "Open Source Rails"
+  year: "2007, 2011, 2013"
+  byline: "the first and largest gallery of Open Source Ruby on Rails applications"
+  url: "http://www.opensourcerails.com"
+  image: "img/portfolio/opensourcerails.jpg"
+  tags: ["featured", "open-source"]
 
 -
   title: "Deploy Button"
@@ -114,7 +122,7 @@
   title: "DietPicture"
   year: "2010"
   byline: "visual photo food diary. Just snap a pic of what you eat."
-  url: "http://dietpicture.herokuapp.com"
+  # url: "http://dietpicture.herokuapp.com"
   image: "img/portfolio/dietpicture.jpg"
   tags: ["featured", "experiments"]
 
@@ -122,18 +130,12 @@
   title: "Workout.io"
   year: "2010"
   byline: "stay on track with your fitness by sharing workouts with friends"
-  url: "http://workoutio.herokuapp.com"
+  # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/workoutio.jpg"
   tags: ["experiments"]
 
 
--
-  title: "Open Source Rails"
-  year: "2008"
-  byline: "the first and largest gallery of Open Source Ruby on Rails applications"
-  url: "http://www.opensourcerails.com"
-  image: "img/portfolio/opensourcerails.jpg"
-  tags: ["featured", "open-source"]
+
 
 
 # template
