@@ -1,4 +1,4 @@
-# tags:
+
 # - featured
 # - clients
 # - open-source
@@ -11,7 +11,6 @@
   byline: "Next-gen CRM developed for Sequoia Capital"
   url: "https://www.forwardtrail.com"
   image: "img/portfolio/forwardtrail.jpg"
-  tags: ["featured"]
 
 -
   title: "Node Knockout"
@@ -19,7 +18,6 @@
   byline: "48 hours global hackathon featuring Node.js"
   url: "http://www.nodeknockout.com"
   image: "img/portfolio/nko.jpg"
-  tags: ["featured", "hackathons"]
 
 -
   title: "Open Source Rails"
@@ -27,7 +25,6 @@
   byline: "the first and largest gallery of Open Source Ruby on Rails applications"
   url: "http://www.opensourcerails.com"
   image: "img/portfolio/opensourcerails.jpg"
-  tags: ["featured", "open-source"]
 
 -
   title: "Deploy Button"
@@ -35,7 +32,6 @@
   byline: "deploy your code by pressing a button"
   url: "http://deploybtn.herokuapp.com"
   image: "img/portfolio/deploybtn.jpg"
-  tags: ["featured", "hackathons", "experiments"]
 
 -
   title: "Lizi"
@@ -43,7 +39,6 @@
   byline: "a personal assistant to help manage your schedule"
   # url: "http://lizibot.herokuapp.com"
   image: "img/portfolio/lizi.jpg"
-  tags: ["featured"]
 
 -
   title: "nReduce"
@@ -51,7 +46,6 @@
   byline: "global online community for early stage startup founders"
   # url: "http://nreduce.herokuapp.com"
   image: "img/portfolio/nreduce.jpg"
-  tags: ["featured"]
 
 -
   title: "PingPoll"
@@ -59,7 +53,6 @@
   byline: "automatic notifications of new poll releases for the 2012 election"
   # url: "http://pingpoll.herokuapp.com"
   image: "img/portfolio/pingpoll.jpg"
-  tags: ["experiments"]
 
 -
   title: "Saasly"
@@ -67,7 +60,6 @@
   byline: "save money on your SaaS bills"
   # url: "http://sassly.herokuapp.com"
   image: "img/portfolio/saasly.jpg"
-  tags: ["experiments"]
 
 -
   title: "Sneaker Backup"
@@ -75,7 +67,14 @@
   byline: "Full system backups via the 'SneakerNet'"
   # url: "http://sneakernet.herokuapp.com"
   image: "img/portfolio/sneakerbackup.jpg"
-  tags: ["experiments", "hackathons"]
+
+-
+  title: "Copybar.io"
+  year: "2012"
+  byline: "drop in content management snippets into any site"
+  url: "http://copybar.io"
+  image: "img/portfolio/copybar.jpg"
+
 
 -
   title: "Heroscale"
@@ -83,15 +82,14 @@
   byline: "automatically scales your Heroku dynos and workers"
   # url: "http://heroscale.herokuapp.com"
   image: "img/portfolio/heroscale.jpg"
-  tags: ["featured", "experiments"]
 
 -
   title: "BetterAt"
   year: "2011"
   byline: "learning platform for schools and classrooms"
-  # url: "http://betterat.herokuapp.com"
+  # url: "http://betterat.herokuapp.com".
+
   image: "img/portfolio/betterat.jpg"
-  tags: ["clients"]
 
 -
   title: "Hello There"
@@ -99,23 +97,20 @@
   byline: "make a great impression with a custom video intro page"
   # url: "http://hellothere.herokuapp.com"
   image: "img/portfolio/hellothere.jpg"
-  tags: ["featured"]
 
 -
   title: "Scrabbly"
   year: "2010"
-  byline: "massively multiplayer, infinite sized scrabble board"
+  byline: "massively multiplayer, infinite sized scrabble board, won Node Knockout 2010 popularity prize"
   url: "http://startupmonkeys.com/2010/09/02/building-a-scrabble-mmo-in-48-hours/"
   image: "img/portfolio/scrabbly.jpg"
-  tags: ["featured", "hackathons"]
 
 -
   title: "Helpshelf"
   year: "2010"
-  byline: "online searchable technical bookshelf"
+  byline: "Online searchable technical bookshelf. Won the IndexTank sponsored holiday hackathon."
   # url: "http://helpshelf.herokuapp.com"
   image: "img/portfolio/helpshelf.jpg"
-  tags: ["featured", "experiments", "hackathons"]
 
 
 -
@@ -124,7 +119,6 @@
   byline: "visual photo food diary. Just snap a pic of what you eat."
   # url: "http://dietpicture.herokuapp.com"
   image: "img/portfolio/dietpicture.jpg"
-  tags: ["featured", "experiments"]
 
 -
   title: "Workout.io"
@@ -132,11 +126,63 @@
   byline: "stay on track with your fitness by sharing workouts with friends"
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/workoutio.jpg"
-  tags: ["experiments"]
+
+-
+  title: "LaunchSplash"
+  year: "2009"
+  byline: "generate a 'coming soon' landing for your domain"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/launchsplash.jpg"
+
+-
+  title: "AlertMe.tv"
+  year: "2009"
+  byline: "get alert when your favorite TV shows come on, won Rails Rumble 2009 solo prize"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/alertmetv.jpg"
 
 
+-
+  title: "White Label Apps, Inc"
+  year: "2008"
+  byline: "white labeled codebases for the web 2.0 wannabee"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/whitelabelapps.jpg"
 
+-
+  title: "Comic.ly"
+  year: "2008"
+  byline: "hot or not for webcomics, my entry for Rails Rumble 2008"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/comicly.jpg"
 
+-
+  title: "BlogStem"
+  year: "2007"
+  byline: "a new blog engine I built on rails. almost became the next tumblr, so close."
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/blogstem.jpg"
+
+-
+  title: "PubBud"
+  year: "2007"
+  byline: "Google Maps mashup to find people nearby to grab a beer with. Won honorable mention in Rails Rumble 2007."
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/pubbud.jpg"
+
+-
+  title: "LoginAllow"
+  year: "2007"
+  byline: "Before OAuth, this service used AIM/GTalk/Yahoo Messenger to provide sign on from people's existing accounts."
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/loginallow.jpg"
+
+-
+  title: "SocialGang"
+  year: "2006"
+  byline: "simple team communication / collaboration"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/socialgang.jpg"
 
 # template
 # -
@@ -144,4 +190,4 @@
 #   byline: ""
 #   url: ""
 #   image: "img/projects/.png"
-#   tags: ["featured", "hackathons"]
+#
