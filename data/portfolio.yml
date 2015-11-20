@@ -10,7 +10,7 @@
   year: "2014"
   byline: "Next-gen CRM developed for Sequoia Capital"
   url: "https://www.forwardtrail.com"
-  image: "img/portfolio/forwardtrail.png"
+  image: "img/portfolio/forwardtrail.jpg"
   tags: ["featured"]
 
 -
@@ -41,7 +41,7 @@
   title: "Lizi"
   year: "2012"
   byline: "a personal assistant to help manage your schedule"
-  url: "http://lizibot.herokuapp.com"
+  # url: "http://lizibot.herokuapp.com"
   image: "img/portfolio/lizi.jpg"
   tags: ["featured"]
 
@@ -49,7 +49,7 @@
   title: "nReduce"
   year: "2012"
   byline: "global online community for early stage startup founders"
-  url: "http://nreduce.herokuapp.com"
+  # url: "http://nreduce.herokuapp.com"
   image: "img/portfolio/nreduce.jpg"
   tags: ["featured"]
 
@@ -57,7 +57,7 @@
   title: "PingPoll"
   year: "2012"
   byline: "automatic notifications of new poll releases for the 2012 election"
-  url: "http://pingpoll.herokuapp.com"
+  # url: "http://pingpoll.herokuapp.com"
   image: "img/portfolio/pingpoll.jpg"
   tags: ["experiments"]
 
@@ -65,7 +65,7 @@
   title: "Saasly"
   year: "2012"
   byline: "save money on your SaaS bills"
-  url: "http://sassly.herokuapp.com"
+  # url: "http://sassly.herokuapp.com"
   image: "img/portfolio/saasly.jpg"
   tags: ["experiments"]
 
@@ -73,7 +73,7 @@
   title: "Sneaker Backup"
   year: "2012"
   byline: "Full system backups via the 'SneakerNet'"
-  url: "http://sneakernet.herokuapp.com"
+  # url: "http://sneakernet.herokuapp.com"
   image: "img/portfolio/sneakerbackup.jpg"
   tags: ["experiments", "hackathons"]
 
@@ -81,7 +81,7 @@
   title: "Heroscale"
   year: "2011"
   byline: "automatically scales your Heroku dynos and workers"
-  url: "http://heroscale.herokuapp.com"
+  # url: "http://heroscale.herokuapp.com"
   image: "img/portfolio/heroscale.jpg"
   tags: ["featured", "experiments"]
 
@@ -89,16 +89,16 @@
   title: "BetterAt"
   year: "2011"
   byline: "learning platform for schools and classrooms"
-  url: "http://betterat.herokuapp.com"
+  # url: "http://betterat.herokuapp.com"
   image: "img/portfolio/betterat.jpg"
   tags: ["clients"]
 
 -
-  title: "Say Hello There"
+  title: "Hello There"
   year: "2010"
   byline: "make a great impression with a custom video intro page"
-  url: "http://hellothere.herokuapp.com"
-  image: "img/portfolio/sayhellothere.jpg"
+  # url: "http://hellothere.herokuapp.com"
+  image: "img/portfolio/hellothere.jpg"
   tags: ["featured"]
 
 -
@@ -113,7 +113,7 @@
   title: "Helpshelf"
   year: "2010"
   byline: "online searchable technical bookshelf"
-  url: "http://helpshelf.herokuapp.com"
+  # url: "http://helpshelf.herokuapp.com"
   image: "img/portfolio/helpshelf.jpg"
   tags: ["featured", "experiments", "hackathons"]
 
