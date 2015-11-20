@@ -176,12 +176,21 @@
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/blogstem.jpg"
 
+
 -
   title: "PubBud"
   year: "2007"
   byline: "Google Maps mashup to find people nearby to grab a beer with. Won honorable mention in Rails Rumble 2007."
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/pubbud.jpg"
+
+
+-
+  title: "SocialGang"
+  year: "2006"
+  byline: "simple team communication / collaboration"
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/socialgang.jpg"
 
 -
   title: "LoginAllow"
@@ -190,12 +199,6 @@
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/loginallow.jpg"
 
--
-  title: "SocialGang"
-  year: "2006"
-  byline: "simple team communication / collaboration"
-  # url: "http://workoutio.herokuapp.com"
-  image: "img/portfolio/socialgang.jpg"
 
 # template
 # -
