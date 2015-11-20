@@ -7,17 +7,134 @@
 
 -
   title: "Forward Trail"
+  year: "2014"
   byline: "Next-gen CRM developed for Sequoia Capital"
   url: "https://www.forwardtrail.com"
-  image: "http://placehold.it/1100x856"
+  image: "img/portfolio/forwardtrail.png"
   tags: ["featured"]
 
 -
   title: "Node Knockout"
+  year: "2013"
   byline: "48 hours global hackathon featuring Node.js"
   url: "http://www.nodeknockout.com"
-  image: "http://placehold.it/1100x856"
+  image: "img/portfolio/nko.jpg"
   tags: ["featured", "hackathons"]
+
+-
+  title: "Deploy Button"
+  year: "2012"
+  byline: "deploy your code by pressing a button"
+  url: "http://deploybtn.herokuapp.com"
+  image: "img/portfolio/deploybtn.jpg"
+  tags: ["featured", "hackathons", "experiments"]
+
+-
+  title: "Lizi"
+  year: "2012"
+  byline: "a personal assistant to help manage your schedule"
+  url: "http://lizibot.herokuapp.com"
+  image: "img/portfolio/lizi.jpg"
+  tags: ["featured"]
+
+-
+  title: "nReduce"
+  year: "2012"
+  byline: "global online community for early stage startup founders"
+  url: "http://nreduce.herokuapp.com"
+  image: "img/portfolio/nreduce.jpg"
+  tags: ["featured"]
+
+-
+  title: "PingPoll"
+  year: "2012"
+  byline: "automatic notifications of new poll releases for the 2012 election"
+  url: "http://pingpoll.herokuapp.com"
+  image: "img/portfolio/pingpoll.jpg"
+  tags: ["experiments"]
+
+-
+  title: "Saasly"
+  year: "2012"
+  byline: "save money on your SaaS bills"
+  url: "http://sassly.herokuapp.com"
+  image: "img/portfolio/saasly.jpg"
+  tags: ["experiments"]
+
+-
+  title: "Sneaker Backup"
+  year: "2012"
+  byline: "Full system backups via the 'SneakerNet'"
+  url: "http://sneakernet.herokuapp.com"
+  image: "img/portfolio/sneakerbackup.jpg"
+  tags: ["experiments", "hackathons"]
+
+-
+  title: "Heroscale"
+  year: "2011"
+  byline: "automatically scales your Heroku dynos and workers"
+  url: "http://heroscale.herokuapp.com"
+  image: "img/portfolio/heroscale.jpg"
+  tags: ["featured", "experiments"]
+
+-
+  title: "BetterAt"
+  year: "2011"
+  byline: "learning platform for schools and classrooms"
+  url: "http://betterat.herokuapp.com"
+  image: "img/portfolio/betterat.jpg"
+  tags: ["clients"]
+
+-
+  title: "Say Hello There"
+  year: "2010"
+  byline: "make a great impression with a custom video intro page"
+  url: "http://hellothere.herokuapp.com"
+  image: "img/portfolio/sayhellothere.jpg"
+  tags: ["featured"]
+
+-
+  title: "Scrabbly"
+  year: "2010"
+  byline: "massively multiplayer, infinite sized scrabble board"
+  url: "http://startupmonkeys.com/2010/09/02/building-a-scrabble-mmo-in-48-hours/"
+  image: "img/portfolio/scrabbly.jpg"
+  tags: ["featured", "hackathons"]
+
+-
+  title: "Helpshelf"
+  year: "2010"
+  byline: "online searchable technical bookshelf"
+  url: "http://helpshelf.herokuapp.com"
+  image: "img/portfolio/helpshelf.jpg"
+  tags: ["featured", "experiments", "hackathons"]
+
+
+-
+  title: "DietPicture"
+  year: "2010"
+  byline: "visual photo food diary. Just snap a pic of what you eat."
+  url: "http://dietpicture.herokuapp.com"
+  image: "img/portfolio/dietpicture.jpg"
+  tags: ["featured", "experiments"]
+
+-
+  title: "Workout.io"
+  year: "2010"
+  byline: "stay on track with your fitness by sharing workouts with friends"
+  url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/workoutio.jpg"
+  tags: ["experiments"]
+
+
+-
+  title: "Open Source Rails"
+  year: "2008"
+  byline: "the first and largest gallery of Open Source Ruby on Rails applications"
+  url: "http://www.opensourcerails.com"
+  image: "img/portfolio/opensourcerails.jpg"
+  tags: ["featured", "open-source"]
+
 
 # template
 # -

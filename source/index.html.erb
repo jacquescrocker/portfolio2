@@ -1,10 +1,10 @@
 <div id="qoutes" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
   <div class="parallax-overlay-2">
-    <div class="container" style="padding: 85px 20px;padding-top:25px;">
+    <div class="container" id="top-content">
       <div class="col-md-12">
         <h1>‟I built too much. I've gone too far.”</h1>
         <p class="copyright">The tragicly large portfolio of Jacques Crocker - hyperactive hacker.</p>
-        <ul class="social" style="margin: 20px;">
+        <ul class="social">
           <li>
             <a class="github" href="http://www.github.com/jacquescrocker"></a>
           </li>
@@ -23,22 +23,8 @@
   </div>
 </div>
 
-<section id="portfolio" class="section" style="padding-bottom:50px;">
+<section id="portfolio" class="section">
   <div class="container">
-
-    <div class="row" style="margin-top: -236px;">
-      <div id="options" class="clearfix">
-        <ul id="filters" class="option-set clearfix" data-option-key="filter">
-          <li><a href="#filter" data-option-value="*" class="selected">everything <strong>(<%= portfolio_projects.count %>)</strong></a></li>
-          <li><a href="#filter" data-option-value=".featured">featured <strong>(<%= portfolio_projects("featured").count %>)</strong></a></li>
-          <li><a href="#filter" data-option-value=".clients">clients <strong>(<%= portfolio_projects("clients").count %>)</strong></a></li>
-          <li><a href="#filter" data-option-value=".open-source">open source <strong>(<%= portfolio_projects("open-source").count %>)</strong></a></li>
-          <li><a href="#filter" data-option-value=".experiments">experiments <strong>(<%= portfolio_projects("experiments").count %>)</strong></a></li>
-          <li><a href="#filter" data-option-value=".hackathons">hackathons <strong>(<%= portfolio_projects("hackathons").count %>)</strong></a></li>
-
-        </ul>
-      </div>
-    </div>
 
     <div class="row">
       <div class="portfolio-container">
@@ -51,7 +37,12 @@
                   <img src="<%= project.image %>" alt="" />
                   <div class="overlay">
                     <div class="details">
-                      <h2><%= project.title %></h2>
+                      <h2>
+                        <%= project.title %>
+                        <% if project.year %>
+                          (<%= project.year %>)
+                        <% end %>
+                      </h2>
                       <p><%= project.byline %></p>
                     </div>
                   </div>
