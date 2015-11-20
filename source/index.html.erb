@@ -34,7 +34,7 @@
             <div class="project-item">
               <div class="project-image">
                 <!-- <a href="/<%= project.title.parameterize %>/"> -->
-                <a href="<%= project.url.presence || "#" %>/">
+                <a href="<%= project.url.presence || project.screenshot || "#" %>">
                   <img src="<%= project.image %>" alt="" />
                   <div class="overlay">
                     <div class="details">
