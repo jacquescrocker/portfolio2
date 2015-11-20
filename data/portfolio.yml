@@ -75,6 +75,19 @@
   url: "http://copybar.io"
   image: "img/portfolio/copybar.jpg"
 
+-
+  title: "Seconds"
+  year: "2011"
+  byline: "use SMS to order from local merchants"
+  # url: "http://heroscale.herokuapp.com"
+  image: "img/portfolio/seconds.jpg"
+
+-
+  title: "AngelSquare"
+  year: "2011"
+  byline: "virtual angel investing game built on top of AngelList API"
+  # url: "http://heroscale.herokuapp.com"
+  image: "img/portfolio/angelsq.jpg"
 
 -
   title: "Heroscale"
