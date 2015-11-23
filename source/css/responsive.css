@@ -6,16 +6,16 @@ Responsive
         background-position: center top !important;
         background-attachment: scroll !important;
         height: auto;
-        margin: 0 auto;     
-        width: 100%;          
+        margin: 0 auto;
+        width: 100%;
     }
     .parallax{
         background-position: center top !important;
         background-attachment: scroll !important;
         height: auto;
-        margin: 0 auto;     
-        width: 100%;    
-    }    
+        margin: 0 auto;
+        width: 100%;
+    }
     .navbar-default{
         z-index: 10;
     }
@@ -33,7 +33,7 @@ Responsive
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-collapse,
     .navbar-default .navbar-form{
         border-color:#f1f2f7;
     }
@@ -72,18 +72,18 @@ Responsive
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .container>.navbar-header, 
-    .container-fluid>.navbar-header, 
-    .container>.navbar-collapse, 
+    .container>.navbar-header,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
     .container-fluid>.navbar-collapse {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .navbar>.container .navbar-brand, 
+    .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
         margin-left:0;
     }
-    .navbar-default .navbar-toggle, 
+    .navbar-default .navbar-toggle,
     .navbar-default .navbar-toggle {
         -webkit-transition: all .25s ease;
            -moz-transition: all .25s ease;
@@ -100,7 +100,7 @@ Responsive
         overflow-y: auto!important;
         background:#ffffff;
     }
-    
+
     .navbar-nav > li .sub-menu, .navbar-nav > li .sub-menu > li .sub-menu {
         display: none;
         height: auto;
@@ -112,7 +112,7 @@ Responsive
         position: relative;
         top: inherit;
         z-index: 1;
-    }    
+    }
     .navbar-nav>li:hover .sub-menu,
     .navbar-nav>li .sub-menu>li:hover .sub-menu{
         width: 100%;
@@ -125,7 +125,7 @@ Responsive
     }
     .navbar-nav>li .sub-menu>li>a {
         line-height: 20px;
-        padding: 10px 15px; 
+        padding: 10px 15px;
         background: inherit !important;
         border-top:1px solid #f1f2f7 !important;
         color: #262626;
@@ -154,6 +154,11 @@ Responsive
     .header-logo{
         margin-left: 30px;
     }
+
+    body .project-item .img-wrapper {
+      min-height: 227px
+    }
+
 }
 
 @media (max-width: 980px){
@@ -176,6 +181,10 @@ Responsive
         display: block;
     }
 
+    body .project-item .img-wrapper {
+      min-height: 267px;
+    }
+
 }
 @media (max-width: 600px){
     #header{
@@ -184,7 +193,7 @@ Responsive
     .avatar-section img{
         height: 400px;
         width: 400px;
-    }    
+    }
     .info > h2{
         font-size: 60px;
     }
@@ -210,7 +219,7 @@ Responsive
 @media (max-width: 480px){
     .navone li{
         padding: 12px 0;
-    }   
+    }
     .clients_logo li{
         margin-left: 130px;
     }
@@ -229,20 +238,20 @@ Responsive
     }
     .clients_logo li{
         margin-left: 0px;
-    }    
+    }
 }
 
 @media (max-width: 375px){
     #header{
         width: 170px;
-    }    
+    }
     #open-nav.nav-full{
         width: 170px;
     }
 
     .navone li{
         padding: 12px 0;
-    }   
+    }
     .info > h2{
         font-size: 50px;
     }
@@ -266,7 +275,7 @@ Responsive
     }
     .navone li{
         padding: 12px 0;
-    }   
+    }
     .info > h2{
         font-size: 50px;
     }

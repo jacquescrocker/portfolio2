@@ -1,8 +1,9 @@
 //= require "bootstrap.css"
 //= require "styles.css"
 //= require "animate.css"
-//= require "responsive.css"
+//= require_self
 //= require "colors/color-red.css"
+//= require "responsive.css"
 
 body
   #filters a
@@ -29,6 +30,9 @@ body
 
   .project-item
     border: 1px solid #ccc
+    .img-wrapper
+      min-height: 279px
+      display: block
     .overlay
       padding-top: 0
       h2

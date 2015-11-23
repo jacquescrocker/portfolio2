@@ -35,7 +35,8 @@
               <div class="project-image">
                 <!-- <a href="/<%= project.title.parameterize %>/"> -->
                 <a href="<%= project.url.presence || project.screenshot || "#" %>">
-                  <img src="<%= project.image %>" alt="" width="1100" height="856" />
+                  <span class='img-wrapper'><img src="<%= project.image %>" alt="" width="1100" height="856" /></span>
+
                   <div class="overlay">
                     <div class="details">
                       <h2>
