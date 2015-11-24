@@ -37,13 +37,18 @@
 
       <div class="col-xs-6">
         <div class="single-project">
-          <% if project.screenshots %>
-            <div class="project-images">
-              <% project.screenshots.each do |screenshot_url| %>
-                <a href="<%= screenshot_url %>" target="_blank"><img class="img-responsive" src="<%= screenshot_url %>" alt=""></a>                
+          <div class="project-images">
+            <% if project.videos %>
+              <% project.videos.each do |video_url| %>
+                <iframe width="555" height="432" src="<%= video_url %>" frameborder="0" allowfullscreen></iframe>                
               <% end %>
-            </end>
-          <% end %>
+            <% end %>
+            <% if project.screenshots %>
+              <% project.screenshots.each do |screenshot_url| %>
+                <a href="<%= screenshot_url %>" target="_blank"><img class="img-responsive" src="<%= screenshot_url %>" alt=""></a>
+              <% end %>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>

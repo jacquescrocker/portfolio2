@@ -35,10 +35,16 @@
     - "/img/portfolio/nko.jpg"
 
   description: |
-    Organized and ran the popular 48 hour global online hackathon for Node.js developers. In the 2 years running it,
-    we managed <strong>759</strong> teams, <strong>1470</strong> participants,
-    <strong>255</strong> expert judges, <strong>112</strong> company sponsorships,
-    and <strong>7118</strong> community voters.
+    Organized and ran the popular 48 hour global online hackathon for Node.js developers.
+
+
+    In the 2 years I helped organize it, there were a total of:
+
+    * <strong>759</strong> teams
+    * <strong>1470</strong> participants
+    * <strong>255</strong> expert judges
+    * <strong>112</strong> company sponsorships
+    * <strong>7118</strong> community voters
 
 
 -
@@ -53,6 +59,8 @@
 
   screenshots:
     - "/img/portfolio/deploybtn.jpg"
+    - "/img/portfolio/deploybtn2.jpg"
+    - "/img/portfolio/deploybtn3.jpg"
 
   description: |
     We launched <strong>Deploy Button</strong> for RailsRumble 2012. Our team Lizi won <strong>1st place</strong> as chosen by the public, and 3rd place as chosen by the judges. In the week since launch, Deploy Button received over <strong>15k uniques</strong>, and <strong>6k users</strong> have triggered a deploy.
@@ -73,9 +81,13 @@
 
   screenshots:
     - "/img/portfolio/lizi.jpg"
+    - "/img/portfolio/lizi2.jpg"
+    - "/img/portfolio/lizi3.jpg"
 
   description: |
-    An intelligent agent over the web, that you can interact with in a chat like interface. We launched it early, and waited for people to tell us what they wanted it to do. Calendar / scheduling ended up working pretty well, but we couldn't get the product good enough to retain users. With Sunrise and other amazing calendaring apps launching at the same time, the "chat" angle wasn't enough to differentiate and we moved on.
+    Lizi was an intelligent agent for the web, that you can interact with in a chat like interface. We launched it early, and waited for people to tell us what they wanted it to do.
+
+    Calendar / scheduling ended up working pretty well, but we couldn't get the product good enough to retain users. With Sunrise and other amazing calendaring apps launching at the same time, the "chat" angle wasn't enough to differentiate and we moved on.
 
 
 -
@@ -90,6 +102,8 @@
 
   screenshots:
     - "/img/portfolio/nreduce.jpg"
+    - "/img/portfolio/nreduce2.jpg"
+    - "/img/portfolio/nreduce3.png"
 
   description: |
 
@@ -111,6 +125,11 @@
   screenshots:
     - "/img/portfolio/pingpoll.jpg"
 
+  description: |
+    Build a microapp that emailed out 2012 election polls as soon as they were posted.
+
+    Had <strong>2k people</strong> signups, we turned it off after the 2012 election (though it might return in 2016).
+
 -
   title: "Saasly"
   year: "2012"
@@ -122,6 +141,12 @@
 
   screenshots:
     - "/img/portfolio/saasly.jpg"
+    - "/img/portfolio/saasly2.jpg"
+
+  description: |
+    How many SaaS services rely on you forgetting to cancel? Saasly aimed to save you money by reminding you to cancel SaaS services you aren't using.
+
+    It reminds you BEFORE you get billed so you have time to cancel.
 
 -
   title: "Sneaker Backup"
@@ -133,7 +158,16 @@
     # Original Landing: "http://sneakerbackup.divshot.io"
 
   screenshots:
-    - "/img/portfolio/saasly.jpg"
+    - "/img/portfolio/sneakerbackup.jpg"
+
+  description: |
+    The (nutty) idea: <strong>Backup your hard drive via postal mail.</strong>
+
+    Experiment we ran to see if this product was viable. We posted a landing page, bought some adwords, did some customer demos.
+
+    Overseas we got quite a bit of interest. Of course being in US, this wasn't going to be viable. Very few techies locally had any interest in the service so we moved on.
+
+    [Watch the demo pitch.](https://www.icloud.com/keynote/000HV6puZti19U0kw96edkhTA#SneakerBackup)
 
 -
   title: "Copybar.io"
@@ -146,6 +180,14 @@
 
   screenshots:
     - "/img/portfolio/copybar.jpg"
+    - "/img/portfolio/copybar2.jpg"
+
+
+  description: |
+
+    Copybar provides embeddable CMS on any website. You put in a javascript tag, and you can allow certain collaborators to edit that content easily (using a WSYWYG editor).
+
+    I built out the embeddable JS code, as well as set up the initial deployable version. It's currently still being maintained and has an active base of paying customers.
 
 -
   title: "Seconds"
@@ -157,11 +199,15 @@
   links:
     # Archived Site: "http://seconds.divshot.io"
 
-  screenshots:
-    - "/img/portfolio/seconds.jpg"
+  videos:
+    - "https://www.youtube.com/embed/ZesYbGKY0E8"
+
+  # screenshots:
+  #   - "/img/portfolio/seconds.jpg"
 
   description: |
     Built an ordering and menu system over SMS used by local merchants around Seattle. Ordering food should be as easy as texting a friend. But when it comes to local merchants, it's usually a friend that hates you.
+
 
 -
   title: "AngelSquare"
@@ -171,9 +217,23 @@
 
   links:
     # Archived Site: "http://angelsq.divshot.io"
+    # TODO: get this piece of crap fixed up and hosted again
 
   screenshots:
     - "/img/portfolio/angelsq.jpg"
+
+    # TODO: find a screenshot of the angellist widget
+
+
+  description: |
+    AngelSquare was a way to virtually invest in companies on top of AngelList API.
+
+    We built a chrome extension that allowed you to put fake money into companies you liked on AngelList and then use the market
+    demand to assign prices to these shares. This allowed users to try to pick the "next hot company" early on, and see how well they did.
+
+    The idea was the data generated from this "game" could actually be very useful in the real world to Angel Investors.
+
+    It had some decent usage for about 3months, but as a sideproject, we couldn't really keep momentum going with it. The one thing that lasted from the project for a few years was an AngelList Profile widget that startups could embed on their site.
 
 -
   title: "Heroscale"
@@ -186,7 +246,17 @@
     # Archived Site: "http://heroscale.divshot.io"
 
   screenshots:
-    - "/img/portfolio/heroscale.jpg"
+    - "/img/portfolio/heroscale.png"
+    - "/img/portfolio/heroscale2.png"
+    - "/img/portfolio/heroscale3.png"
+
+  description: |
+    Hosted service that tracks the usage of your Heroku app and automatically scales your dynos up and down depending on load.
+
+    Particularly useful for queued up jobs, scaling up your workers to get the QUEUE count back down to zero.
+
+    Useful for both improving your site performance, and lowering your Heroku bill during downtimes.
+
 
 -
   title: "BetterAt"
@@ -199,6 +269,10 @@
 
   screenshots:
     - "/img/portfolio/betterat.jpg"
+    - "/img/portfolio/betterat2.jpg"
+
+  description: |
+    BetterAt was a learning platform (non-profit) funded by the Gates Foundation. I helped implement v2, which allowed anyone to create their own course, by curate online materials and collaborating with students to help them work through it.
 
 -
   title: "Hello There"
@@ -209,9 +283,21 @@
 
   links:
     # Archived Site: "http://hellothere.herokuapp.com"
+    StackSocial Deal Page: "https://stacksocial.com/sales/sayhellothere"
 
   screenshots:
     - "/img/portfolio/hellothere.jpg"
+    - "/img/portfolio/hellothere2.jpg"
+    - "/img/portfolio/hellothere3.jpg"
+
+  description: |
+    Hello There was a tool that allowed you to create a video intro page to send to anyone. They could introduce themselves to investors, customers or a new career with a personalized web page and embedded video.
+
+    The key feature was an instant alert when someone watched it so you could follow up with them immediately.
+
+    We had some decent traction on it with AppSumo and StackSocial deals, and at one point it generated about $2k/mo, however we never really put the dev/marketing resources to allow it to grow.
+
+    After running Hello There for a couple years, we shut it down.
 
 -
   title: "Scrabbly"
