@@ -53,6 +53,11 @@ helpers do
     end
     projects
   end
+
+  def portfolio_project(name)
+    slug = name.to_s.parameterize
+    data.portfolio.find{|p| p.title.try(:parameterize) == slug}
+  end
 end
 
 set :css_dir, 'css'
@@ -63,6 +68,8 @@ set :images_dir, 'img'
 
 activate :directory_indexes
 
+activate :livereload
+
 # http://middlemanapp.com/blogging/
 # activate :blog do |blog|
 #   blog.paginate = true
@@ -72,10 +79,10 @@ activate :directory_indexes
 
 # proxy pages
 ignore "/detail.html"
-data.portfolio.each do |project|
+portfolio_projects.each do |project|
   slug = project.title.parameterize
   # puts "generating project: #{project.id}"
-  proxy "/#{slug}/index.html", "/detail.html", :locals => { :project => project }
+  proxy "/#{slug}/index.html", "/detail.html", :locals => { :slug => slug }
 end
 
 

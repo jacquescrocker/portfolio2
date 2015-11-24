@@ -10,12 +10,15 @@
   year: "2014"
   byline: "Next-gen CRM developed for Sequoia Capital"
   thumb: "/img/thumbs/forwardtrail.jpg"
-
   links:
     Live Site: "https://www.forwardtrail.com"
 
   screenshots:
     - "/img/portfolio/forwardtrail.jpg"
+
+  description: |
+    A next generation CRM, with data entry automatically handled via email, calendar, address books, and social networks.
+
 
 -
   title: "Node Knockout"
@@ -24,10 +27,15 @@
   thumb: "/img/thumbs/nko.jpg"
 
   links:
-    Live Site: "http://www.nodeknockout.com"
+    2015 Results: "http://www.nodeknockout.com"
+    2013 Results: "http://2013.nodeknockout.com"
 
   screenshots:
     - "/img/portfolio/forwardtrail.jpg"
+
+  description: |
+    Organized and ran the popular 48 hour global online hackathon for Node.js developers. In the 2 years running it, we managed <strong>759</strong> teams, <strong>1470</strong> participants, <strong>255</strong> expert judges, <strong>112</strong> company sponsorships, and <strong>7118</strong> community voters.
+
 
 -
   title: "Deploy Button"
@@ -54,6 +62,10 @@
   screenshots:
     - "/img/portfolio/lizi.jpg"
 
+  description: |
+    An intelligent agent over the web, that you can interact with in a chat like interface. We launched it early, and waited for people to tell us what they wanted it to do. Calendar / scheduling ended up working pretty well, but we couldn't get the product good enough to retain users. With Sunrise and other amazing calendaring apps launching at the same time, the "chat" angle wasn't enough to differentiate and we moved on.
+
+
 -
   title: "nReduce"
   year: "2012"
@@ -66,6 +78,14 @@
 
   screenshots:
     - "/img/portfolio/nreduce.jpg"
+
+  description:
+
+    nReduce was a global online startup community launched in the summer of 2012. It had over 800 teams participate
+
+    Created an online global community for early stage founders. Over 800 startups participated online, and our weekly dinners in SF had some amazing speakers that included Naval Ravikant, Tom Preston Warner, and Andrew Chen.
+
+    Covered by [Xconomy](http://www.xconomy.com/san-francisco/2012/05/14/n-reduce-opens-up-as-alternative-to-ultra-elite-startup-incubators/) and [VentureBeat](http://venturebeat.com/2012/05/28/nreduce/)
 
 -
   title: "PingPoll"
@@ -127,6 +147,9 @@
 
   screenshots:
     - "/img/portfolio/seconds.jpg"
+
+  description: |
+    Built an ordering and menu system over SMS used by local merchants around Seattle. Ordering food should be as easy as texting a friend. But when it comes to local merchants, it's usually a friend that hates you.
 
 -
   title: "AngelSquare"
@@ -190,6 +213,11 @@
 
   screenshots:
     - "/img/portfolio/scrabbly.jpg"
+
+  description: |
+
+    Built an infinite scrabble board game in 48 hours, called “Scrabb.ly” and won the popularity prize for the first NodeKnockout in 2010. Was quickly contacted by Hasbro lawyers, and we changed the name to WordSquared. At its peak, the board reached 42million tiles, before being shut down due to high hosting costs and a terrible environment for social gaming.
+
 
 -
   title: "Helpshelf"
@@ -255,6 +283,9 @@
   thumb: "/img/thumbs/whitelabelapps.jpg"
   screenshots:
     - "/img/portfolio/whitelabelapps.jpg"
+
+  description: |
+    Sold customized white labeled codebases for clients wanting job boards, their own social networks (who were all going to become the next Facebook), coming soon pages, and Google Maps starter kits. Turned into a nice consulting business, but wasn't very scalable. I eventually started convincing my clients to use other hosted platforms instead.
 
 -
   title: "Comic.ly"

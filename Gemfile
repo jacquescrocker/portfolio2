@@ -21,10 +21,11 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 group :development do
-  # setup guard
-  gem "guard", ">= 1.0.0"
-  gem "guard-coffeescript", ">= 0.4.0"
-  gem "guard-livereload", ">= 0.4.0"
-  gem "rack-livereload", ">= 0.3.4"
-  gem "guard-shell"
+  gem "byebug"
+  # gem "guard", ">= 1.0.0"
+  # gem "guard-middleman"
+  # gem "guard-coffeescript", ">= 0.4.0"
+  # gem "guard-livereload", ">= 0.4.0"
+  # gem "rack-livereload", ">= 0.3.4"
+  # gem "guard-shell"
 end
