@@ -28,7 +28,7 @@
         <div class="single-project">
           <% if project.screenshots %>
             <% project.screenshots.each do |screenshot_url| %>
-              <img class="img-responsive" src="<%= screenshot_url %>" alt="">
+              <a href="<%= screenshot_url %>" target="_blank"><img class="img-responsive" src="<%= screenshot_url %>" alt=""></a>
             <% end %>
           <% end %>
         </div>
