@@ -9,8 +9,7 @@
         <% if project.byline %>
         <h4><%= project.byline %></h4>
         <% end %>
-        <%= Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html %>
-        <hr>
+
         <ul class="item-meta">
           <% if project.year %>
             <li><strong>Year - </strong><%= project.year %></li>
@@ -21,11 +20,19 @@
             <% end %>
           <% end %>
         </ul>
+
         <% if project.links %>
           <% project.links.each do |key, val| %>
             <a href="<%= val %>" class="btn"><%= key %></a>
           <% end %>
         <% end %>
+
+
+        <hr>
+
+        <%= Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html %>
+
+
       </div>
 
       <div class="col-xs-6">

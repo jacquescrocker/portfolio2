@@ -1,4 +1,3 @@
-
 # - featured
 # - clients
 # - open-source
@@ -17,7 +16,7 @@
     - "/img/portfolio/forwardtrail.jpg"
 
   description: |
-    A next generation CRM, with data entry automatically handled via email, calendar, address books, and social networks.
+    Built and deployed a custom CRM and deal flow pipeline that runs Sequoia Capital and their associated fund Heritage. Spun that technology out into a new company - Forward Trail.
 
 
 -
@@ -34,7 +33,10 @@
     - "/img/portfolio/forwardtrail.jpg"
 
   description: |
-    Organized and ran the popular 48 hour global online hackathon for Node.js developers. In the 2 years running it, we managed <strong>759</strong> teams, <strong>1470</strong> participants, <strong>255</strong> expert judges, <strong>112</strong> company sponsorships, and <strong>7118</strong> community voters.
+    Organized and ran the popular 48 hour global online hackathon for Node.js developers. In the 2 years running it,
+    we managed <strong>759</strong> teams, <strong>1470</strong> participants,
+    <strong>255</strong> expert judges, <strong>112</strong> company sponsorships,
+    and <strong>7118</strong> community voters.
 
 
 -
@@ -79,7 +81,7 @@
   screenshots:
     - "/img/portfolio/nreduce.jpg"
 
-  description:
+  description: |
 
     nReduce was a global online startup community launched in the summer of 2012. It had over 800 teams participate
 
