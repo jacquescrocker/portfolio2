@@ -13,9 +13,7 @@ task :deploy do
   system("middleman build --verbose")
 
   system("divshot push")
-
   system("divshot promote development production")
 
-  # run deploy command
-  # show a growl alert afterwards
+  system("netlify deploy -p build -s treasurer-navigations-61551")
 end
