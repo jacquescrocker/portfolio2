@@ -278,6 +278,7 @@ a.hire-btn:hover{
     text-align: center;
 }
 
+.social li a.angellist:before { content: '\e826'; }
 .social li a.facebook:before { content: '\e800'; }
 .social li a.twitter:before { content: '\e801'; }
 .social li a.flickr:before { content: '\e810'; }
@@ -404,9 +405,7 @@ a.hire-btn:hover{
     border-color: #2f72c4;
 }
 .social li a.github:hover  {
-    background-color: #000000;
     opacity: 1;
-    border-color: #000000;
 }
 .social li a.wordpress:hover  {
     background-color: #0083b3;
