@@ -155,18 +155,19 @@
   image: "img/portfolio/whitelabelapps.jpg"
 
 -
-  title: "Open Source Rails"
-  year: "2007"
-  byline: "the first and largest gallery of Open Source Rails apps"
-  url: "http://www.opensourcerails.com"
-  image: "img/portfolio/opensourcerails.jpg"
-
--
   title: "Comic.ly"
   year: "2008"
   byline: "hot or not for webcomics, my entry for Rails Rumble 2008"
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/comicly.jpg"
+
+
+-
+  title: "Open Source Rails"
+  year: "2007"
+  byline: "the first and largest gallery of Open Source Rails apps"
+  url: "http://www.opensourcerails.com"
+  image: "img/portfolio/opensourcerails.jpg"
 
 -
   title: "BlogStem"
@@ -183,6 +184,13 @@
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/pubbud.jpg"
 
+-
+  title: "LoginAllow"
+  year: "2007"
+  byline: "Before OAuth, this service used AIM/GTalk/Yahoo Messenger to provide sign on from people's existing accounts."
+  # url: "http://workoutio.herokuapp.com"
+  image: "img/portfolio/loginallow.jpg"
+
 
 -
   title: "SocialGang"
@@ -190,13 +198,6 @@
   byline: "simple communication for teams. Slack totally copied my idea."
   # url: "http://workoutio.herokuapp.com"
   image: "img/portfolio/socialgang.jpg"
-
--
-  title: "LoginAllow"
-  year: "2007"
-  byline: "Before OAuth, this service used AIM/GTalk/Yahoo Messenger to provide sign on from people's existing accounts."
-  # url: "http://workoutio.herokuapp.com"
-  image: "img/portfolio/loginallow.jpg"
 
 
 # template
