@@ -48,6 +48,25 @@
 
 
 -
+  title: "TeamSync"
+  year: "2013"
+  byline: "Team Collaboration on rocket boots"
+  thumb: "/img/thumbs/teamsync.jpg"
+
+  links:
+    Archived Site: "http://teamsync.herokuapp.com"
+
+  screenshots:
+    - "/img/portfolio/teamsync.jpg"
+
+  description: |
+    TeamSync is a tool we built when we wanted to replicate our nReduce experience of weekly checkins on a smaller scale.
+
+    The idea is each person on the team would do a 2min video every week, and say what they accomplished, what they were planning to do next week.
+
+    As our team started working remote more, and on separate projects, this was a useful way to check in and see what everyone was doing.
+
+-
   title: "Deploy Button"
   year: "2012"
   byline: "deploy your code by pressing a button"
@@ -268,8 +287,9 @@
     # Archived Site: "http://betterat.divshot.io"
 
   screenshots:
-    - "/img/portfolio/betterat.jpg"
+    - "/img/portfolio/betterat.png"
     - "/img/portfolio/betterat2.jpg"
+    - "/img/portfolio/betterat3.jpg"
 
   description: |
     BetterAt was a learning platform (non-profit) funded by the Gates Foundation. I helped implement v2, which allowed anyone to create their own course, by curate online materials and collaborating with students to help them work through it.
@@ -317,18 +337,6 @@
     Built an infinite scrabble board game in 48 hours, called “Scrabb.ly” and won the popularity prize for the first NodeKnockout in 2010. Was quickly contacted by Hasbro lawyers, and we changed the name to WordSquared. At its peak, the board reached 42million tiles, before being shut down due to high hosting costs and a terrible environment for social gaming.
 
     Read more about it [here](startupmonkeys.com/2010/09/02/building-a-scrabble-mmo-in-48-hours/).
-
--
-  title: "Helpshelf"
-  year: "2010"
-  byline: "Online searchable technical bookshelf. Won IndexTank's holiday hackathon"
-  thumb: "/img/thumbs/helpshelf.jpg"
-
-  links:
-    # Archived Site: "http://helpshelf.herokuapp.com"
-
-  screenshots:
-    - "/img/portfolio/helpshelf.jpg"
 
 -
   title: "DietPicture"
