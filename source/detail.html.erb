@@ -38,9 +38,11 @@
       <div class="col-xs-6">
         <div class="single-project">
           <% if project.screenshots %>
-            <% project.screenshots.each do |screenshot_url| %>
-              <a href="<%= screenshot_url %>" target="_blank"><img class="img-responsive" src="<%= screenshot_url %>" alt=""></a>
-            <% end %>
+            <div class="project-images">
+              <% project.screenshots.each do |screenshot_url| %>
+                <a href="<%= screenshot_url %>" target="_blank"><img class="img-responsive" src="<%= screenshot_url %>" alt=""></a>                
+              <% end %>
+            </end>
           <% end %>
         </div>
       </div>
