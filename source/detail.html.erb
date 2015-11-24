@@ -5,6 +5,9 @@
         <a class='back-btn' href="/"><span class='arrow'>←</span> Back to Portfolio</a>
 
         <h3><%= project.title %></h3>
+        <% if project.byline %>
+        <h4><%= project.byline %></h4>
+        <% end %>
         <%= Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html %>
         <hr>
         <ul class="item-meta">
