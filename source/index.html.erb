@@ -33,9 +33,8 @@
           <div class="col-xs-12 col-sm-6 col-md-4 mt">
             <div class="project-item">
               <div class="project-image">
-                <!-- <a href="/<%= project.title.parameterize %>/"> -->
-                <a href="<%= project.url.presence || project.screenshot || "#" %>">
-                  <span class='img-wrapper'><img src="<%= project.image %>" alt="" width="1100" height="856" /></span>
+                <a href="/<%= project.title.parameterize %>/">
+                  <span class='img-wrapper'><img src="<%= project.thumb %>" alt="" width="1100" height="856" /></span>
 
                   <div class="overlay">
                     <div class="details">

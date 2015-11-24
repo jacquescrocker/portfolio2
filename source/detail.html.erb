@@ -1,37 +1,38 @@
-  <!-- TODO: add a back button -->
+<section class="portfolio-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <a class='back-btn' href="/"><span class='arrow'>←</span> Back to Portfolio</a>
 
-  <section class="portfolio-single">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-6">
-          <h3>iPhone 6 design concept</h3>
-          <p>Creando dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-          <p>European minnow priapumfish mosshead warbonnet shrimpfish bigscale. Cutlassfish porbeagle shark ricefish walking catfish glassfish Black swallower. </p>
-          <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar. </p>
-          <hr>
-
-
-          <ul class="item-meta">
-            <li>
-              <strong>Client - </strong>Themeforest</li>
-            <li>
-              <strong>Date - </strong>December 27th, 2013</li>
-            <li>
-              <strong>Skills/Tools Used - </strong>Canon EOS 5D, Photography, Branding</li>
-          </ul>
-          <a href="#" class="btn">Project link</a>
-        </div>
-        <!-- End .col-xs-6 -->
-        <div class="col-xs-6">
-          <div class="single-project">
-            <img class="img-responsive" src="http://placehold.it/1100x856" alt="">
-            <img class="img-responsive" src="http://placehold.it/1100x856" alt="">
-          </div>
-          <!-- End .single-project -->
-        </div>
-        <!-- End .col-xs-6 -->
+        <h3><%= project.title %></h3>
+        <%= Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html %>
+        <hr>
+        <ul class="item-meta">
+          <% if project.year %>
+            <li><strong>Year - </strong><%= project.year %></li>
+          <% end %>
+          <% if project.attributes %>
+            <% project.attributes.each do |key, val| %>
+              <li><strong><%= key %> - </strong><%= Redcarpet.new(val, :smart, :fenced_code).to_html %></li>
+            <% end %>
+          <% end %>
+        </ul>
+        <% if project.links %>
+          <% project.links.each do |key, val| %>
+            <a href="<%= val %>" class="btn"><%= key %></a>
+          <% end %>
+        <% end %>
       </div>
-      <!-- End .row -->
+
+      <div class="col-xs-6">
+        <div class="single-project">
+          <% if project.screenshots %>
+            <% project.screenshots.each do |screenshot_url| %>
+              <img class="img-responsive" src="<%= screenshot_url %>" alt="">
+            <% end %>
+          <% end %>
+        </div>
+      </div>
     </div>
-    <!-- End .container -->
-  </section>
+  </div>
+</section>
