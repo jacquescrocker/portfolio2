@@ -12,8 +12,8 @@ task :deploy do
   puts "Deploying"
   system("middleman build --verbose")
 
-  system("divshot push")
-  system("divshot promote development production")
+  # system("divshot push")
+  # system("divshot promote development production")
 
   system("netlify deploy -p build -s treasurer-navigations-61551")
 end
